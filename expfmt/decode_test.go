@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prometheus/common/model"
+	"github.com/m3db/prometheus_common/model"
 )
 
 func TestTextDecoder(t *testing.T) {

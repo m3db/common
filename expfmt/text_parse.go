@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	dto "github.com/prometheus/client_model/go"
+	dto "github.com/m3db/prometheus_client_model/go"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/prometheus/common/model"
+	"github.com/m3db/prometheus_common/model"
 )
 
 // A stateFn is a function that represents a state in a state machine. By
